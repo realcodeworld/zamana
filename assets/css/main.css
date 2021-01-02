@@ -76,6 +76,23 @@
 		appearance: none;
 	}
 
+	.socialmedia{
+		font-size: 30px;
+	}
+
+	.socialmedia a:hover > .fa-facebook{
+		color:#3b5998;
+	}
+	.socialmedia a:hover > .fa-twitter{
+		color:#55acee;
+	}
+	.socialmedia a:hover > .fa-instagram{
+		color:#fc0202;
+	}
+	.socialmedia a:hover > .fa-whatsapp{
+		color:#24c148;
+	}
+
 /* Basic */
 
 	@media screen and (max-width: 480px) {
@@ -921,7 +938,7 @@
 		opacity: 0.95;
 		position: relative;
 		text-align: center;
-		width: 40em;
+		width: 65em;
 	}
 
 		#main .avatar {
